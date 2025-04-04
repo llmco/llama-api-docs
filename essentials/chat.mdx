@@ -8,7 +8,7 @@ description: "Example overview page before API endpoints"
   changed. Developers recommend immediate update. For more information access:
   [Migration Guide](https://github.com/openai/openai-python/discussions/742)
 </Info>
-This example shows how to use the Openai client with LlamaAPI
+This example shows how to use the Openai client with LlmAPI
 
 <CodeGroup>
 ```python Python - New
@@ -16,8 +16,8 @@ This example shows how to use the Openai client with LlamaAPI
 from openai import OpenAI
 
 client = OpenAI(
-api_key = "<your_llamaapi_token>",
-base_url = "https://api.llama-api.com"
+api_key = "<your_llmapi_token>",
+base_url = "https://api.llmapi.com"
 )
 
     response = client.chat.completions.create(
@@ -40,7 +40,7 @@ print(response.choices[0].message.content)
 
 import openai
 
-openai.api_base = "https://api.llama-api.com"
+openai.api_base = "https://api.llmapi.com"
 
 openai.api_key = "LL-2vE"  # supply your API key however you choose
 
@@ -76,8 +76,8 @@ print(completion)
 from openai import OpenAI
 
 client = OpenAI(
-api_key = "<your_llamaapi_token>",
-base_url = "https://api.llama-api.com"
+api_key = "<your_llmapi_token>",
+base_url = "https://api.llmapi.com"
 )
 
 response = client.chat.completions.create(

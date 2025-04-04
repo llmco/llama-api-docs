@@ -13,7 +13,7 @@ It provides utility functions to get a list of active plugins from [plugnplai](p
   using the library.
 </Tip>
 
-## Integration with llama
+## Integration with llm
 
 You can install Plug and Plai using pip:
 
@@ -45,7 +45,7 @@ URLs:  ["https://weather--vicentescode.repl.co", "https://openai-plugin.xweather
 Function:  [{"name": "WeatherWizard_checkWeatherUsingGET", "description": "Use the WeatherWizard plugin to automatically fetch current weather information for a specific location when it"s being generated. The plugin will return weather data, including temperature, wind speed, humidity, and other relevant information, as well as a link to a page that has all the information. Links will always be returned and should be shown to the user. The weather data can be used to provide users with up-to-date and accurate weather information for their desired location.", "parameters": {"type": "object", "properties": {"location": {"type": "string", "description": "Location for which to retrieve weather information."}}, "required": ["location"]}}]
 ```
 
-Now let's run llama with the new functions
+Now let's run llm with the new functions
 
 ```python Llama API
 import json

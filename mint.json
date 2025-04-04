@@ -1,10 +1,10 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Llama API",
+  "name": "Llm API",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png",
-    "href": "https://llama-api.com"
+    "href": "https://llmapi.com"
   },
   "favicon": "/favicon.png",
   "colors": {
@@ -30,7 +30,7 @@
   ],
   "topbarCtaButton": {
     "name": "Get Started",
-    "url": "https://www.llama-api.com/"
+    "url": "https://www.llmapi.com/"
   },
   "tabs": [
     {
@@ -70,7 +70,7 @@
   ],
   "footerSocials": {
     "twitter": "https://twitter.com/mintlify",
-    "github": "https://github.com/llamaapi/",
+    "github": "https://github.com/llmco/",
     "linkedin": "https://www.linkedin.com/company/mintsearch"
   }
 }
