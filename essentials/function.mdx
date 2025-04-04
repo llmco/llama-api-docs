@@ -19,7 +19,7 @@ Web Pages, strucuring Mobile Application View Models, saving data to Database co
 passing it to API calls, among infinite other use cases.
 
 OpenAI introduced Function Calling in their latest GPT Models, but open-source models did not get that feature
-until recently. LlamaAPI allows you to seamlessly call functions (such as `query_database()` or `send_email()`)
+until recently. LlmAPI allows you to seamlessly call functions (such as `query_database()` or `send_email()`)
 from different LLMs, standardizing their outputs.
 
 ## Use Cases
@@ -410,7 +410,7 @@ def get_emails(quantity, login, password):
 ```
 ### Response
 ```
-[{"Subject": "Llama", "From": "LlamaAPI <llama@llama.com>"}]
+[{"Subject": "Llma", "From": "LlmAPI <llm@llm.com>"}]
 ```
 
 So, we send the emails to a new function that will summarize
@@ -445,7 +445,7 @@ print(summarizedResponse.json()['choices'][0]['message']['content'])
 ```
 ### Response
 ```
-You have 1 email with the subject "Llama" and the sender "LlamaAPI <llama@llama.com>".
+You have 1 email with the subject "Llm" and the sender "LlmAPI <llm@llm.com>".
 ```
 ## Discord
 
