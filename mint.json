@@ -1,6 +1,6 @@
 {
   "$schema": "https://mintlify.com/schema.json",
-  "name": "Llm API",
+  "name": "LLM Api",
   "logo": {
     "dark": "/logo/dark.png",
     "light": "/logo/light.png",
